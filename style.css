@@ -1,0 +1,82 @@
+body
+
+.octodex {
+	padding: 50px;
+}
+
+.octodex ul {
+
+}
+.octocat {
+  display: inline-block;
+}
+
+/*body li.octocat {
+  width: 300px;
+}
+*/
+.octocat img {
+  	width: 375px;
+  	display: block;
+  	border: solid #80959C;
+    text-align: center;
+    border-width: 1px;
+    line-height: 0px;
+}
+
+ul .authors {
+	padding-left: 1px;
+}
+
+.authors img {
+  	width: 20px;
+ 
+}
+
+.authors li {
+	list-style: none;
+	float: right;
+	display: inline-block;
+}
+
+.authors li img {
+	float:right;
+	border: none;
+	float: right;
+}
+
+.image-footer   {
+	/*float: left;
+	width: 400px;
+	height: 54px;*/
+	font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    text-align: right;
+    padding: 12px 0 12px 0;
+    margin: 0 12px 22px;
+    border-bottom: 1px solid #80959C;
+    position: relative;
+}
+
+/*.image-footer span, a {
+	text-align: right;
+}*/
+
+.image-caption {
+	display: block;
+	/*text-align: right;*/
+	float: right;	
+	/*width: 400px;
+	height: 54px;*/
+	/*border-bottom: 1px solid #8D9496;*/
+}
+
+.image-number {
+	float: left;
+}
+
+/*.image-caption:nth-child(2) {
+    propertyA: valueA;
+    propertyB: valueB;
+}*/
